@@ -6,7 +6,7 @@ setting up git
 
 ```git remote rm origin>```
 
-```git remote add origin```
+```git remote add origin <your ssh or https origin here>```
 
 ```git branch``` make sure youre on master
 
