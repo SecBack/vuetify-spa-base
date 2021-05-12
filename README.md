@@ -1,3 +1,18 @@
+setting up git
+```git clone git@github.com:SecBack/vuetify-spa-base.git <project name>```
+
+```git remote -v``` 
+
+```git remote rm origin>```
+
+```git remote add origin```
+
+```git branch``` make sure youre on master
+
+```git branch -M master``` set master as the main branch
+
+```git push origin master``` this pushes the 'init setup' commit from this repo to your new repo
+
 setup the project with the following commands
 
 ```composer install```
@@ -11,6 +26,8 @@ setup the project with the following commands
 ```npm install```
 
 ```npm run watch```
+
+
 
 
 
