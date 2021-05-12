@@ -1,4 +1,4 @@
-setting up git¨
+setting up git
 
 ```git clone git@github.com:SecBack/vuetify-spa-base.git <project name>```
 
