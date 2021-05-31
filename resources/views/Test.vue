@@ -1,14 +1,22 @@
 <template>
   <div>
-    welcome
+    test
   </div>
 </template>
 
 <script>
 export default {
-  name: 'welcome',
+  name: 'test',
 
+  data() {
+    return {
+
+    }
+  },
   mounted() {
+
+  },
+  methods: {
 
   }
 }

@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::post('/login', 'App\Http\Controllers\Auth\LoginController@index');
+Route::post('/register', 'App\Http\Controllers\Auth\RegisterController@create');
+
+// you must be authenticated to access these api routes
+Route::group(['middleware' => 'auth:sanctum'], function() {
+    Route::post('/logout', 'App\Http\Controllers\Auth\LoginController@index');
+
+
 });
